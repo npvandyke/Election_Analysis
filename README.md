@@ -1,7 +1,8 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given the following tasks to complete the election audit of a recent local congressional election. 
+
+### A Colorado Board of Elections employee has given the following tasks to complete the election audit of a recent local congressional election. 
 
 1. Calculate the total number of votes cast. 
 2. Get a complete list of candidates who receieved votes. 
@@ -14,7 +15,7 @@ A Colorado Board of Elections employee has given the following tasks to complete
 - Software: Python 3.6.1; Visual Studio Code, 1.38.1 
 
 ## Summary 
-The analysis of the election shows that: 
+### The analysis of the election shows that: 
 - There were 369,711 votes cast in the election. 
 - The candidates were: 
   1. Charles Casper Stockham
@@ -28,24 +29,28 @@ The analysis of the election shows that:
   - Diana DeGette, who received 73.8% of the vote and 272,892 votes. 
   
 ## Challenge Overview
-The following tasks were requested to be added to the election analysis audit: 
+### The following tasks were requested to be added to the election analysis audit: 
 
 1. Calculate the voter turnout for each county.
 2. Calculate the percentage of votes from each county out of the total vote count. 
 3. Determine the county with the highest voter turnout. 
 
 ## Challenge Summary
-The analysis of the election shows that: 
+### The analysis of the election shows that: 
 - There were 369,711 votes cast in the election. 
 - The counties in the election were: 
-  1. 
-  2. 
-  3. 
+  1. Jefferson County
+  2. Denver County
+  3. Arapahoe County 
 - The county results were: 
-  1. X votes came from Y County, representing Z% of the total vote count. 
-  2. X votes came from Y County, representing Z% of the total vote count. 
-  3. X votes came from Y County, representing Z% of the total vote count. 
-- The county with the highest voter turnout was X County, which had Y votes, representing Z% of the total vote count. 
+  1. 38,855 votes came from Jefferson County, representing 10.5% of the total vote count. 
+  2. 306,055 votes came from Denver County, representing 82.8% of the total vote count. 
+  3. 24,801 votes came from Arapahoe County, representing 6.7% of the total vote count. 
+- The county with the highest voter turnout was Denver County, which had 306,055 votes, representing 82.8% of the total vote count. 
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-  
+### Election-Audit Summary
+The script used in the PypollChallenge.py file included in this repository analyzed the data loaded from the election_results.csv file included in the repository, a snapshot from which is visible below:
+
+ ![Screen_shot_election_results](Resources/Screen_shot_election_results.png)
+ 
+  In a summary statement to the election commission, provide a business proposal on how this script can be used— with some modification —for any election. Give at least two examples of how this script can be modified to be used for other elections.
